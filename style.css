@@ -12,15 +12,25 @@
     grid-template-rows: repeat(4, auto);    
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
-    align-items: center;    
-    justify-items: center;
+    margin: 2rem auto 2rem;
+    row-gap: 0.1rem;
+    column-gap: 3rem;
 }
 
-.hero > h1,h2,p {
-    grid-column-start: 2;
-    align-items: center;    
-    justify-items: center;  
+
+.hero > h1{
+    place-self: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero > h2{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 2rem;
+    grid-row-start: 1;
+    place-self: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .hero > h1,h2{
@@ -29,13 +39,19 @@
 
 .hero > p{
     font-family: 'Open Sans', sans-serif;
+    grid-row-start: 3;
+}
+
+.hero > h1,h2,p {
+    grid-column-start: 2;    
 }
 
 .hero-img {
     height:25vh;
     border-radius: 50%;
     grid-row-start: 1;
-    grid-row-start: 2;
+    grid-row-end: 4;
+    place-self: center;
 }
 
 .button {

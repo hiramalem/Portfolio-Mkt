@@ -6,16 +6,14 @@ function Card(props){
 
         <article className="card">
             
-            <div>
-                <img src={props.imagem} alt={props.alttext} width="100px"/>                
-            </div>
-            <div>
-                <h2>{props.titulo}</h2>                    
-                <ul>
-                    <li>{props.descrição}</li>                                               
-                </ul>
-            </div>
+            <img src={props.imagem} alt={props.alttext} className="cardimg"/>                
             
+            <h2>{props.titulo}</h2>    
+
+            <h3>  
+                Lorem ipsum dolor sitLorem ipsum dolor sit
+            </h3>
+
         </article>
     )
 

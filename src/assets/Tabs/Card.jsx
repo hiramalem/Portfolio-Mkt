@@ -10,9 +10,9 @@ function Card(props){
             
             <h2>{props.titulo}</h2>    
 
-            <h3>  
-                Lorem ipsum dolor sitLorem ipsum dolor sit
-            </h3>
+            <p>  
+                {props.descrição}
+            </p>
 
         </article>
     )

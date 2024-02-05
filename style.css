@@ -1,9 +1,50 @@
 .HeaderNav {
     display: flex;
-    align-items: center;
-    background-color: #21222A;
-    height: 90px;
+    margin: 0 auto;    
+    align-content: center;
+    justify-content: center;
+    background-color: #53535b;    
     padding: 30px 25px;
+}
+
+.links{
+    margin-right: 40px;   
+}
+
+.languages{    
+    margin-left: 100px;
+}
+
+.socialmedia{
+
+}
+
+.imglanguage{
+    margin-right: 10px;
+}
+
+.sociallogo{
+    margin-left: 10px;
+}
+
+
+.headerlink {
+    color: #F4F3ED;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 700;    
+    border: #F4F3ED solid 2px;
+    border-radius: 10px;
+    margin-inline: 10px;
+}
+
+.sociallogo{    
+    height: 35px;
+}
+
+.imglanguage{
+    height: 35px;
 }
 
 .hero{
@@ -81,24 +122,24 @@
     background-color: #F4F3ED;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto;    
     justify-items: center;
     container-type: inline-size;
-    /* grid-auto-rows: 120px auto auto;*/
-    
+    row-gap: 10px;
+    grid-auto-rows: 120px auto auto;
 }
 
-.card{
-    justify-items: center;
-    align-items: center;
-    text-align: center;        
-    /* grid-template-rows: subgrid;   */
+.card{        
+    justify-items: center;    
+    text-align: center;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
 }
 
 .cardimg{        
     width: 100%;
     height: 120px;
-    object-fit:contain;
+    object-fit:contain;    
 }
 
 body {

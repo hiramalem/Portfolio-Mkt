@@ -12,19 +12,17 @@
 }
 
 .languages{    
-    margin-left: 100px;
-}
-
-.socialmedia{
-
+    margin-left: auto;
 }
 
 .imglanguage{
     margin-right: 10px;
+    height: 35px;
 }
 
 .sociallogo{
     margin-left: 10px;
+    height: 35px;
 }
 
 
@@ -39,14 +37,6 @@
     margin-inline: 10px;
 }
 
-.sociallogo{    
-    height: 35px;
-}
-
-.imglanguage{
-    height: 35px;
-}
-
 .hero{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -57,7 +47,6 @@
     row-gap: 0.1rem;
     column-gap: 3rem;
 }
-
 
 .hero > h1{
     place-self: left;
@@ -74,9 +63,8 @@
     margin-bottom: 0;
 }
 
-.hero > h1,h2{
-    font-family: 'Bodoni Moda', serif;
-    
+.hero > :where(h1,h2){
+    font-family: 'Bodoni Moda', serif;    
 }
 
 .hero > p{
@@ -84,7 +72,7 @@
     grid-row-start: 3;
 }
 
-.hero > h1,h2,p {
+.hero > :where(h1, h2, p) {
     grid-column-start: 2;    
 }
 
@@ -110,9 +98,12 @@
     border: solid black;
     border-top-right-radius: 10px;
     border-top: none;    
-    border-left: none;
+    border-left: none;    
 }
 
+.button:first-of-type{
+    border-top-left-radius: 10px;
+}
 
 .grid {
     display: grid;    
@@ -125,15 +116,16 @@
     margin: 0 auto;    
     justify-items: center;
     container-type: inline-size;
-    row-gap: 10px;
-    grid-auto-rows: 120px auto auto;
+    row-gap: 10px;    
 }
 
 .card{        
+    display: grid;
     justify-items: center;    
     text-align: center;
     grid-template-rows: subgrid;
     grid-row: span 3;
+    text-wrap: wrap;
 }
 
 .cardimg{        
@@ -142,13 +134,11 @@
     object-fit:contain;    
 }
 
-body {
-    margin: 0;
-}
-
 .main {
     background-color: #F4F3ED;
     padding-top: 3rem;
+    padding-inline: 1rem;
+    box-sizing: border-box;
 }
 
 .flex {

@@ -12,13 +12,13 @@ export default function Navbar (){
                 <HeaderLink tab="Contact"/>
             </div>
             <div className="socialmedia">
-                <Social img="src/assets/logo.svg" alt="Logo do Twitter"/>
-                <Social img="src/assets/github-mark-white.png" alt="Logo do Github"/>                        
-                <Social link="linkedin.com/in/hiramalem" img="src/assets/LI-In-Bug.png" alt="Logo do Linkedin"/>
+                <Social img="public/Images/logo.svg" alt="Logo do Twitter"/>
+                <Social img="public/Images/github-mark-white.png" alt="Logo do Github"/>                        
+                <Social link="linkedin.com/in/hiramalem" img="public/Images/LI-In-Bug.png" alt="Logo do Linkedin"/>
             </div>
             <div className="languages">
-                <Language img="src/assets/bandeira-brasil.png" alt="Bandeira do Brasil"/>
-                <Language img="src/assets/bandeira-eua.png" alt="Bandeira dos EUA"/>
+                <Language img="public/Images/bandeira-brasil.png" alt="Bandeira do Brasil"/>
+                <Language img="public/Images/bandeira-eua.png" alt="Bandeira dos EUA"/>
             </div>
         </nav>
     </>

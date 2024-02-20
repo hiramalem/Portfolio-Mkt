@@ -14,7 +14,7 @@ export default function Navbar (){
             <div className="socialmedia">
                 <Social img="/Images/logo.svg" alt="Logo do Twitter"/>
                 <Social img="/Images/github-mark-white.png" alt="Logo do Github"/>                        
-                <Social link="linkedin.com/in/hiramalem" img="/Images/LI-In-Bug.png" alt="Logo do Linkedin"/>
+                <Social link="https://www.linkedin.com/in/hiramalem" img="/Images/LI-In-Bug.png" alt="Logo do Linkedin"/>
             </div>
             <div className="languages">
                 <Language img="/Images/bandeira-brasil.png" alt="Bandeira do Brasil"/>

@@ -3,20 +3,25 @@ body{
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color: #15151f;
+}
+
 .HeaderNav {
     display: flex;            
-    align-content: center;
-    justify-content: center;
-    background-color: #53535b;    
+    align-content: center;    
+    justify-content: right;    
+    background-color: #15151f;    
     padding: 30px 25px;
 }
 
 .links{
-    margin-right: 40px;   
+    margin-right: 30px;
 }
 
-.languages{    
-    margin-left: auto;
+.languages {
+    margin-left: 30px;
 }
 
 .imglanguage{
@@ -29,25 +34,28 @@ body{
     height: 35px;
 }
 
-
 .headerlink {
     color: #F4F3ED;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: 'Bodoni Moda', serif;
     font-weight: 700;    
     border: #F4F3ED solid 2px;
     border-radius: 10px;
     margin-inline: 10px;
+    padding-inline: 10px;
+    padding-block: 3px;
 }
 
 .hero{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, auto);    
     width: 100%;
     max-width: 1200px;
-    margin: 2rem auto 2rem 0;
+    margin-inline: auto;
+    margin-block: 2rem;
+    /* margin: 2rem auto 2rem 0; */
     row-gap: 0.1rem;
     column-gap: 3rem;
 }
@@ -60,38 +68,42 @@ body{
 
 .hero > h2{
     font-family: 'Bodoni Moda', serif;
-    font-size: 2rem;
+    font-size: 3rem;
     grid-row-start: 1;
     place-self: left;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-block: 0;   
 }
 
 .hero > :where(h1,h2){
-    font-family: 'Bodoni Moda', serif;    
+    font-family: 'Bodoni Moda', serif;
+    color: #1a1a1b;    
 }
 
 .hero > p{
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #24242c;
     grid-row-start: 3;
+    text-align: left;
+    line-height: 1.5;    
 }
 
 .hero > :where(h1, h2, p) {
-    grid-column-start: 2;    
+    grid-column-start: 2;
+    grid-column-end: 6;    
 }
 
 .hero-img {
-    height:25vh;
+    height:18vh;
     border-radius: 50%;
+    grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: 4;
     justify-self: right;
     align-self: center;
 }
 
-.button {
-    text-decoration: none;
-    color: black;    
+.button {    
     background-color: #F4F3ED;
     float: left;
     cursor: pointer;

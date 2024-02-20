@@ -5,15 +5,15 @@ function Card(props){
     return(
 
         <article className="card">
-            
-            <img src={props.imagem} alt={props.alttext} className="cardimg"/>                
-            
-            <h2>{props.titulo}</h2>    
+            <a href={props.link} target="_blank">
+                <img src={props.imagem} alt={props.alttext} className="cardimg"/>                
+                <h2>{props.titulo}</h2>
+            </a>
 
             <p>  
                 {props.descrição}
             </p>
-
+            
         </article>
     )
 

@@ -12,8 +12,8 @@ export default function Navbar (){
                 <HeaderLink tab="Contact"/>
             </div>
             <div className="socialmedia">
-                <Social img="/Images/logo.svg" alt="Logo do Twitter"/>
-                <Social img="/Images/github-mark-white.png" alt="Logo do Github"/>                        
+                <Social link="https://twitter.com/yuukale_" img="/Images/logo.svg" alt="Logo do Twitter"/>
+                <Social link="https://www.github.com/hiramalem" img="/Images/github-mark-white.png" alt="Logo do Github"/>                        
                 <Social link="https://www.linkedin.com/in/hiramalem" img="/Images/LI-In-Bug.png" alt="Logo do Linkedin"/>
             </div>
             <div className="languages">

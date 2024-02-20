@@ -6,11 +6,9 @@ function Social (props) {
 
     return(
 
-        <a href={props.link}>
-            <img className="sociallogo" target="_blank" src={props.img} alt={props.alt}/> 
-        </a>  
-
-        
+        <a href={props.link} target="_blank">
+            <img className="sociallogo" src={props.img} alt={props.alt}/> 
+        </a>        
 
     )
 

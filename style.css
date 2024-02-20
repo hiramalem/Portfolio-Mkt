@@ -1,6 +1,10 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
 .HeaderNav {
-    display: flex;
-    margin: 0 auto;    
+    display: flex;            
     align-content: center;
     justify-content: center;
     background-color: #53535b;    
@@ -126,6 +130,9 @@
     grid-template-rows: subgrid;
     grid-row: span 3;
     text-wrap: wrap;
+    border: #53535b solid;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .cardimg{        

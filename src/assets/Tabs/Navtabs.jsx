@@ -10,7 +10,8 @@ function Navtabs () {
             <Button tab="Copywriting"/>
             <Button tab="Growth"/>
             <Button tab="Performance" />
-            <Button tab="SEO"/>               
+            <Button tab="SEO"/>
+            <Button tab="Licensing"/>               
         </nav>
     )
 }

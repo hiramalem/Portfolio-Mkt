@@ -3,25 +3,28 @@ body{
     margin: 0;
 }
 
+p{
+    margin: 0;
+}
+
 a{
     text-decoration: none;
     color: #15151f;
 }
 
 .HeaderNav {
-    display: flex;            
-    align-content: center;    
-    justify-content: right;    
+    display: flex;
     background-color: #15151f;    
-    padding: 30px 25px;
+    padding: 25px 15px;    
+    justify-content: flex-end;
 }
 
-.links{
-    margin-right: 30px;
+.links{    
+    margin: 0 auto;
 }
 
-.languages {
-    margin-left: 30px;
+.socialmedia{
+    margin-inline: 5rem;
 }
 
 .imglanguage{
@@ -132,7 +135,7 @@ a{
     margin: 0 auto;    
     justify-items: center;
     container-type: inline-size;
-    row-gap: 10px;    
+    row-gap: 1rem;
 }
 
 .card{        
@@ -144,7 +147,7 @@ a{
     text-wrap: wrap;
     border: #53535b solid;
     border-radius: 10px;
-    padding: 5px;
+    padding: 5px;    
 }
 
 .cardimg{        
@@ -157,7 +160,7 @@ a{
     background-color: #F4F3ED;
     padding-top: 3rem;
     padding-inline: 1rem;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .flex {

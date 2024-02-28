@@ -8,6 +8,7 @@ export default function Navbar (){
         <nav className="HeaderNav">
             <div className="links">
                 <HeaderLink tab="Home"/>
+                <HeaderLink tab="About"/>
                 <HeaderLink tab="Certifications"/>                
                 <HeaderLink tab="Contact"/>                
             </div>

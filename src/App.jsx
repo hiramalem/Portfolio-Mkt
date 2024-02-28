@@ -7,6 +7,7 @@ import PortLicensing from "./assets/Tabs/Licensing/PortLicensing"
 
 import Navtabs from "./assets/Tabs/Navtabs"
 import Certifications from "./assets/Header/Certifications/Certifications"
+import About from "./assets/Header/About/About"
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/Growth" element={<PortGrowth/>}/>
         <Route path="/Licensing" element={<PortLicensing/>}/>        
         <Route path="/Certifications" element={<Certifications/>}/>
+        <Route path="/About" element={<About/>}/>
       </Routes>
       
     </>

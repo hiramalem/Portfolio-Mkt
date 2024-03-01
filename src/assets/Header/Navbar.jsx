@@ -7,10 +7,10 @@ export default function Navbar (){
     <>
         <nav className="HeaderNav">
             <div className="links">
-                <HeaderLink tab="Home"/>
-                <HeaderLink tab="About"/>
-                <HeaderLink tab="Certifications"/>                
-                <HeaderLink tab="Contact"/>                
+                <HeaderLink tab="Home" name="Home"/>
+                <HeaderLink tab="About" name="About"/>
+                <HeaderLink tab="Certifications" name="Certificações"/>                
+                <HeaderLink tab="Contact" name="Contato"/>                
             </div>
            
                 <div className="socialmedia">
@@ -18,10 +18,10 @@ export default function Navbar (){
                     <Social link="https://www.github.com/hiramalem" img="/Images/github-mark-white.png" alt="Logo do Github"/>                        
                     <Social link="https://www.linkedin.com/in/hiramalem" img="/Images/LI-In-Bug.png" alt="Logo do Linkedin"/>
                 </div>
-                <div className="languages">
+                {/* <div className="languages">
                     <Language img="/Images/bandeira-brasil.png" alt="Bandeira do Brasil"/>
                     <Language img="/Images/bandeira-eua.png" alt="Bandeira dos EUA"/>
-                </div>
+                </div> */}
            
         </nav>
     </>

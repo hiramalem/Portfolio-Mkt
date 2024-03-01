@@ -7,7 +7,7 @@ function HeaderLink (props){
     return(
 
         <Link className="headerlink" to={props.tab} element={<props.tab/>}>
-        {props.tab}
+        {props.name}
         </Link>               
             
     )

@@ -7,6 +7,7 @@ p{
     margin: 0;
 }
 
+
 a{
     text-decoration: none;
     color: #15151f;
@@ -27,10 +28,10 @@ a{
     margin-inline: 5rem;
 }
 
-.imglanguage{
+/* .imglanguage{
     margin-right: 10px;
     height: 35px;
-}
+} */
 
 .sociallogo{
     margin-left: 10px;
@@ -171,4 +172,28 @@ a{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;    
+}
+
+.about{
+    text-align: left;
+    display: flex;
+    flex-direction: column;    
+    justify-items: center;       
+    width: 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-block: 1rem;    
+}
+
+.about > p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #24242c;
+    line-height: 1.5;
+    margin-block: 0.25rem;
+}
+
+.bold{
+    font-weight: 600;
 }
